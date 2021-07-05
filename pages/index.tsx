@@ -131,10 +131,10 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1602697990684-d3e0ef78c4d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
             alt="Coffee beans"
           />
-          <figurecaption>
+          <figcaption>
             Dolorem inventore aspernatur repellendus. Magni quisquam quod,
             aliquam fugiat cupiditate adipisci quasi.
-          </figurecaption>
+          </figcaption>
         </figure>
 
         <h2>Other Block Elements</h2>
@@ -146,9 +146,9 @@ export default function Home() {
         </p>
 
         <blockquote cite="https://en.wikiquote.org/wiki/Edward_Snowden">
-          "People work better when they know what the goal is and why. It is
-          important that people look forward to coming to work in the morning
-          and enjoy working."
+          &quot;People work better when they know what the goal is and why. It
+          is important that people look forward to coming to work in the morning
+          and enjoy working.&quot;
           <br />
           <br />– Elon Musk
         </blockquote>
@@ -271,7 +271,7 @@ export default function Home() {
             <input
               type="email"
               name="email"
-              required=""
+              required={true}
               placeholder="e.g. john.doe@example.com"
             />
           </p>
@@ -315,7 +315,7 @@ export default function Home() {
           <p className="space-x-1">
             <button>Sign up</button>
             <button type="reset">Reset form</button>
-            <button disabled="disabled">Disabled</button>
+            <button disabled={true}>Disabled</button>
           </p>
         </form>
       </main>
